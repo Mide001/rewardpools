@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.11f1285f.css",
-    "main.js": "./static/js/main.2849190f.js",
+    "main.css": "./static/css/main.2bf810d2.css",
+    "main.js": "./static/js/main.97a43c3c.js",
     "static/js/2715.63bf32f7.chunk.js": "./static/js/2715.63bf32f7.chunk.js",
     "static/js/8845.d6ba82ad.chunk.js": "./static/js/8845.d6ba82ad.chunk.js",
     "static/js/8504.19179dd9.chunk.js": "./static/js/8504.19179dd9.chunk.js",
@@ -54,12 +54,14 @@
     "static/js/2836.4ea94424.chunk.js": "./static/js/2836.4ea94424.chunk.js",
     "static/js/7295.0211dbb5.chunk.js": "./static/js/7295.0211dbb5.chunk.js",
     "static/media/whitepaper.pdf": "./static/media/whitepaper.7c09f3495823f74af069.pdf",
-    "static/media/staking.png": "./static/media/staking.5c1788980a9dab8ffd7d.png",
+    "static/media/background-ake.png": "./static/media/background-ake.7b4535d24ffc531bb7ce.png",
+    "static/media/help-reward.png": "./static/media/help-reward.53c56022b17fea877965.png",
     "static/media/RewardPools.png": "./static/media/RewardPools.5d3e03a0a9042f53e533.png",
+    "static/media/RewardPools-blue.png": "./static/media/RewardPools-blue.0695155df6a9a9f55143.png",
     "index.html": "./index.html"
   },
   "entrypoints": [
-    "static/css/main.11f1285f.css",
-    "static/js/main.2849190f.js"
+    "static/css/main.2bf810d2.css",
+    "static/js/main.97a43c3c.js"
   ]
 }

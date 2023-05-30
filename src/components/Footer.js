@@ -9,7 +9,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="bg-[#22647b] mt-8">
+    <div className="bg-[#22647b]">
       <div className="w-full max-w-7xl mx-auto flex flex-col lg:flex-row gap-8 lg:gap-20 py-12 px-6 min-h-[10vh]">
         <div className="flex flex-col items-center lg:items-start w-full lg:w-1/2 lg:h-full">
           <div className="w-[70%] mx-auto">
@@ -31,21 +31,30 @@ const Footer = () => {
                   href={WhitepaperPDF}
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="text-gray-200"
                 >
                   Whitepaper
                 </a>
               </li>
               <li className="text-center lg:text-left hover:underline cursor-pointer">
-                <a href="/StakeListing">Apply For Listing</a>
+                <a href="/StakeListing" className="text-gray-200">
+                  Apply For Listing
+                </a>
               </li>
 
               <li className="text-center lg:text-left hover:underline cursor-pointer">
-                <a href="#FAQ" onClick={handleScrollBehaviour}>
+                <a
+                  href="#FAQ"
+                  className="text-gray-200"
+                  onClick={handleScrollBehaviour}
+                >
                   FAQs
                 </a>
               </li>
               <li className="text-center lg:text-left hover:underline cursor-pointer">
-                <a href="/cryptoNews">Blog</a>
+                <a href="/" className="text-gray-200">
+                  Blog
+                </a>
               </li>
             </ul>
           </div>

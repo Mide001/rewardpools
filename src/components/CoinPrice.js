@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Help from "./assets/help-reward.png";
 import axios from "axios";
 
 const CoinPrice = () => {
@@ -33,26 +34,26 @@ const CoinPrice = () => {
 
   return (
     <div className="container mx-auto px-4 py-8 mt-4">
-      <h2 className="text-mid text-gray-100 font-bold mb-4">Coin Price</h2>
+      <h2 className="text-mid text-gray-900 font-bold mb-4">Coin Price</h2>
       <div
-        className={`flex justify-between items-center bg-black border border-gray-200 p-4 rounded-md ${
-          isProfit ? "text-green-500" : "text-red-500"
+        className={`bg-[#021f40] flex justify-between items-center p-4 rounded-md ${
+          isProfit ? "text-green-700" : "text-red-500"
         }`}
       >
         <div className="flex items-center">
-          <div className="w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center">
-            <span className="text-xs font-bold">HELP</span>
+          <div className="w-12 h-12 text-white rounded-full flex items-center justify-center">
+            <img src={Help} alt="Logo" className="w-13 h-13" />
           </div>
           <div className="ml-2">
-            <p className="text-base font-semibold">{coinPair}</p>
-            <p className="text-sm text-gray-300">
+            <p className="text-base text-gray-200 font-semibold">{coinPair}</p>
+            <p className="text-sm">
               {priceChange >= 0 ? "+" : "-"}
               {Math.abs(priceChange)}%
             </p>
           </div>
         </div>
         <div>
-          <p className="text-lg font-semibold">{coinPrice}</p>
+          <p className="text-lg font-semibold text-gray-200">{coinPrice}</p>
         </div>
       </div>
     </div>

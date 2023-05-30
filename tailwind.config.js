@@ -9,7 +9,8 @@ module.exports = {
     fontSize: {
       'medium': '1.3rem',
       'mid': '1.7rem',
-      'large': '2.5rem',
+      'midxl': '1.4rem',
+      'large': '2.1rem',
     }
   },
   plugins: [],

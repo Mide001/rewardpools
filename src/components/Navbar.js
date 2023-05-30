@@ -47,16 +47,24 @@ const Navbar = () => {
             >
               BUY $HELP
             </a>
-            <ConnectWallet
+            <div
+              className="flex items-center"
               style={{
-                backgroundColor: "#22647b",
-                color: "#D1D5DB",
-                borderColor: "#D1D5DB",
-                borderWidth: "2px",
-                borderStyle: "solid",
+                height: "40px", // Adjust the height as needed
               }}
-            />
+            >
+              <ConnectWallet
+                style={{
+                  backgroundColor: "#22647b",
+                  color: "#ffffff",
+                  borderColor: "gray",
+                  borderWidth: "2px",
+                  borderStyle: "solid",
+                }} //0f4250
+              />
+            </div>
           </div>
+
           <div className="sm:hidden">
             <button
               className="text-gray-300 hover:bg-[#0f4250] px-3 py-2 rounded-md text-sm font-medium flex"

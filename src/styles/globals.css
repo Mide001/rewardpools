@@ -21,7 +21,6 @@ a {
 
 body {
   color: #e7e8e8;
-  background: #0f1318;
 }
 
 @keyframes fade-in {
@@ -37,5 +36,9 @@ body {
 
 .animate-fade-in {
   animation: fade-in 1s ease-out;
+}
+
+.subscribe {
+  font-family: 'Roboto Condensed', sans-serif;
 }
 

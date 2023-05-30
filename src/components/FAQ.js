@@ -13,7 +13,7 @@ const FAQ = () => {
       question:
         "Can I participate in existing staking pools on Rewardpools.io?",
       answer:
-        "Yes, Rewardpools.io allows users to participate in existing staking pools created by others. You can browse through the available pools, review their performance and rewards, and choose the ones you want to join.",
+        "Yes, Rewardpools.io allows users to participate in existing staking pools created by the developer. You can browse through the available pools, review their performance and rewards, and choose the ones you want to join.",
     },
     {
       question: "Is my staked cryptocurrency safe on Rewardpools.io?",
@@ -37,23 +37,23 @@ const FAQ = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 mt-8">
-      <h2 id="FAQ" className="text-large text-white font-bold mb-8 text-center">
-        Frequently Asked Questions
+    <div className="container mx-auto px-4 mt-8 FAQ">
+      <h2 id="FAQ" className="text-large text-black font-bold mb-8 text-center">
+        FAQs
       </h2>
       <div className="flex justify-center">
         <div className="max-w-lg">
           {faqData.map((item, index) => (
             <div
               key={index}
-              className="bg-black rounded-lg p-4 mb-4 border border-gray-300 cursor-pointer"
+              className="bg-gray-200 rounded-lg p-4 mb-4 border border-gray-800 cursor-pointer"
               onClick={() => handleToggle(index)}
             >
-              <h3 className="font-bold text-gray-200 text-medium">
+              <h3 className="font-bold text-gray-900 text-medium">
                 {item.question}
               </h3>
               {activeIndex === index && (
-                <p className="mt-2 text-gray-500">{item.answer}</p>
+                <p className="mt-2 text-gray-700">{item.answer}</p>
               )}
             </div>
           ))}
